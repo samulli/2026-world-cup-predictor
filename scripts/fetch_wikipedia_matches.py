@@ -404,7 +404,13 @@ def fetch_wikipedia_matches(max_retries=4, retry_delay=30):
     # Sort results and fixtures by datetime
     results.sort(key=lambda x: x.get('datetime', ''))
     fixtures.sort(key=lambda x: x.get('datetime', ''))
-    
+
+    # Filter out stale fixtures: any fixture whose datetime is already in the past
+    # (Wikipedia leaves "future" boxes for completed matches without scores; we
+    # should not surface those as upcoming fixtures).
+    today_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    fixtures = [f for f in fixtures if f.get('datetime', '')[:10] >= today_str]
+
     return {
         'updated_at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S'),
         'results': results,
