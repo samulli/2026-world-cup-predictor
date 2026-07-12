@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T12:51:44",
+  "updated_at": "2026-07-12T01:13:45",
   "results": [
     {
       "id": "match_001",
@@ -65,7 +65,7 @@
       "id": "match_010",
       "datetime": "2026-07-02T00:00:00",
       "datetime_cst": "2026-07-02T08:00:00",
-      "team_a": "United States",
+      "team_a": "USA",
       "team_b": "Bosnia and Herzegovina",
       "score_a": 2,
       "score_b": 0,
@@ -165,7 +165,7 @@
       "id": "match_022",
       "datetime": "2026-07-07T00:00:00",
       "datetime_cst": "2026-07-07T08:00:00",
-      "team_a": "United States",
+      "team_a": "USA",
       "team_b": "Belgium",
       "score_a": 1,
       "score_b": 4,
@@ -190,29 +190,19 @@
       "score_a": 2,
       "score_b": 0,
       "stage": "Unknown"
-    }
-  ],
-  "fixtures": [
+    },
     {
       "id": "match_026",
       "datetime": "2026-07-10T19:00:00",
       "datetime_cst": "2026-07-11T03:00:00",
       "team_a": "Spain",
       "team_b": "Belgium",
-      "score_a": null,
-      "score_b": null,
+      "score_a": 2,
+      "score_b": 1,
       "stage": "Unknown"
-    },
-    {
-      "id": "match_027",
-      "datetime": "2026-07-11T21:00:00",
-      "datetime_cst": "2026-07-12T05:00:00",
-      "team_a": "Norway",
-      "team_b": "England",
-      "score_a": null,
-      "score_b": null,
-      "stage": "Unknown"
-    },
+    }
+  ],
+  "fixtures": [
     {
       "id": "match_028",
       "datetime": "2026-07-12T01:00:00",
@@ -228,7 +218,7 @@
       "datetime": "2026-07-14T19:00:00",
       "datetime_cst": "2026-07-15T03:00:00",
       "team_a": "France",
-      "team_b": "Winner Match 98",
+      "team_b": "Spain",
       "score_a": null,
       "score_b": null,
       "stage": "Unknown"
@@ -237,7 +227,7 @@
       "id": "match_030",
       "datetime": "2026-07-15T19:00:00",
       "datetime_cst": "2026-07-16T03:00:00",
-      "team_a": "Winner Match 99",
+      "team_a": "England",
       "team_b": "Winner Match 100",
       "score_a": null,
       "score_b": null,
