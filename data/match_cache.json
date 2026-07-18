@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T01:13:45",
+  "updated_at": "2026-07-18T23:45:21",
   "results": [
     {
       "id": "match_001",
@@ -65,7 +65,7 @@
       "id": "match_010",
       "datetime": "2026-07-02T00:00:00",
       "datetime_cst": "2026-07-02T08:00:00",
-      "team_a": "USA",
+      "team_a": "United States",
       "team_b": "Bosnia and Herzegovina",
       "score_a": 2,
       "score_b": 0,
@@ -165,7 +165,7 @@
       "id": "match_022",
       "datetime": "2026-07-07T00:00:00",
       "datetime_cst": "2026-07-07T08:00:00",
-      "team_a": "USA",
+      "team_a": "United States",
       "team_b": "Belgium",
       "score_a": 1,
       "score_b": 4,
@@ -200,18 +200,6 @@
       "score_a": 2,
       "score_b": 1,
       "stage": "Unknown"
-    }
-  ],
-  "fixtures": [
-    {
-      "id": "match_028",
-      "datetime": "2026-07-12T01:00:00",
-      "datetime_cst": "2026-07-12T09:00:00",
-      "team_a": "Argentina",
-      "team_b": "Switzerland",
-      "score_a": null,
-      "score_b": null,
-      "stage": "Unknown"
     },
     {
       "id": "match_029",
@@ -219,8 +207,8 @@
       "datetime_cst": "2026-07-15T03:00:00",
       "team_a": "France",
       "team_b": "Spain",
-      "score_a": null,
-      "score_b": null,
+      "score_a": 0,
+      "score_b": 2,
       "stage": "Unknown"
     },
     {
@@ -228,27 +216,29 @@
       "datetime": "2026-07-15T19:00:00",
       "datetime_cst": "2026-07-16T03:00:00",
       "team_a": "England",
-      "team_b": "Winner Match 100",
-      "score_a": null,
-      "score_b": null,
+      "team_b": "Argentina",
+      "score_a": 1,
+      "score_b": 2,
       "stage": "Unknown"
     },
     {
       "id": "match_031",
       "datetime": "2026-07-18T21:00:00",
       "datetime_cst": "2026-07-19T05:00:00",
-      "team_a": "Loser Match 101",
-      "team_b": "Loser Match 102",
-      "score_a": null,
-      "score_b": null,
+      "team_a": "France",
+      "team_b": "England",
+      "score_a": 4,
+      "score_b": 6,
       "stage": "Third Place"
-    },
+    }
+  ],
+  "fixtures": [
     {
       "id": "match_032",
       "datetime": "2026-07-19T19:00:00",
       "datetime_cst": "2026-07-20T03:00:00",
-      "team_a": "Winner Match 101",
-      "team_b": "Winner Match 102",
+      "team_a": "Spain",
+      "team_b": "Argentina",
       "score_a": null,
       "score_b": null,
       "stage": "Final"
